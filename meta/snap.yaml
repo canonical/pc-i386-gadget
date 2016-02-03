@@ -1,7 +1,8 @@
 name: canonical-i386
-vendor: Sergio Schvezov <sergio.schvezov@canonical.com>
-icon: meta/ubuntu.png
-version: 2.1
+version: 3.0.i386
+summary: i386 gadget snap
+description: |
+ This package contains a simple gadget snap for i386 systems
 type: gadget
 
 config:
