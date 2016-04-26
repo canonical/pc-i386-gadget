@@ -1,5 +1,5 @@
 name: canonical-i386
-version: 3.0.i386
+version: 3.1.i386
 summary: i386 gadget snap
 description: |
  This package contains a simple gadget snap for i386 systems
