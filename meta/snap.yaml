@@ -1,23 +1,6 @@
-name: canonical-i386
-version: 3.2.i386
+name: 386
+version: 16.04-0.3
 summary: i386 gadget snap
 description: |
  This package contains a simple gadget snap for i386 systems
 type: gadget
-
-config:
-    ubuntu-core:
-        autopilot: true
-
-gadget:
-    branding:
-        name:  i386
-        subname: generic
-
-    hardware:
-        bootloader: grub
-        architecture: i386
-        partition-layout: minimal
-        boot-assets:
-            files:
-                - path: grub.cfg
