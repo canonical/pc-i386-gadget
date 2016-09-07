@@ -1,7 +1,6 @@
 volumes:
   pc:
     bootloader: grub
-    schema: mbr
     structure:
       - name: mbr
         type: mbr
