@@ -1,6 +1,8 @@
-name: 386
+name: pc
 version: 16.04-0.4
 summary: i386 gadget snap
 description: |
  This package contains a simple gadget snap for i386 systems
 type: gadget
+architectures:
+    - i386
