@@ -1,14 +1,17 @@
 name: pc
-version: 16.04-0.5
-summary: i386 gadget snap
-description: |
- This package contains a simple gadget snap for i386 systems
+version: '16.04-0.5'
+summary: PC gadget for generic 32-bit devices
 type: gadget
-architectures:
-    - i386
-confinement: strict
+description: |
+    This gadget enables generic 32-bit pc devices to work with Ubuntu Core
 grade: stable
+confinement: strict
+icon: icon.png
+
 parts:
-    prebuilt:
-        plugin: dump
-        source: prebuilt
+  grub:
+    source: .
+    plugin: make
+    build-packages:
+      - grub-pc-bin
+        
