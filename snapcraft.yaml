@@ -4,6 +4,8 @@ summary: PC gadget for generic 32-bit devices
 type: gadget
 description: |
     This gadget enables generic 32-bit pc devices to work with Ubuntu Core
+architectures:
+  - i386
 grade: stable
 confinement: strict
 icon: icon.png
