@@ -2,6 +2,7 @@ name: pc
 version: '18-1'
 summary: PC gadget for generic 32-bit devices
 type: gadget
+base: core18
 description: |
     This gadget enables generic 32-bit pc devices to work with Ubuntu Core
 architectures:
